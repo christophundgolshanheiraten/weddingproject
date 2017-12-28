@@ -246,7 +246,7 @@ a:hover{
       rgba(255,255,255, 0.05),
       rgba(255,255,255, 0.25)
     ),url('img/img-03.jpg');*/
-    background: url('img/img-03.jpg');
+    background: url('../img/img-03.jpg');
     background-size:cover;
     background-position: center; 
     background-attachment: fixed;
@@ -557,7 +557,7 @@ a:hover{
     font-weight:400;
     position:relative;
     display:block;
-    width:60rem;
+    width: 120rem;
     line-height:1em;
     margin-top:9rem;
     left:-5rem;
@@ -802,7 +802,7 @@ a:hover{
 }
 
 #Page6 .instagram{
-    background:url('img/instagram.png') no-repeat top center;
+    background:url('../img/instagram.png') no-repeat top center;
     background-size: cover;
 }
 
@@ -980,7 +980,7 @@ a:hover{
     letter-spacing:1.5px;
     line-height:1.5em;
     text-align:left;
-    margin:12rem 3.6rem 3.6rem 3.6rem;
+    margin: 12rem 3.6rem 3.6rem 3.6rem;
     z-index:99;
 }
 
@@ -990,35 +990,35 @@ a:hover{
 }
 
 #img01{
-    background:url('img/img-01.jpg') center center no-repeat;
+    background:url('../img/img-01.jpg') center center no-repeat;
     background-size: cover;
     margin:3.6rem;
     background-color:#ffffff;
 }
 
 #img04{
-    background:url('img/img-04.jpg') center center no-repeat;
+    background:url('../img/img-04.jpg') center center no-repeat;
     background-size: cover;
     margin:5.4rem .5rem 3.6rem 3.6rem;
     background-color:#ffffff;
 }
 
 #img05{
-    background:url('img/img-05.jpg') center center no-repeat;
+    background:url('../img/img-05.jpg') center center no-repeat;
     background-size: cover;
     margin:0rem 3.6rem 9rem .5rem;
     background-color:#ffffff;
 }
 
 #img07{
-    background:url('img/img-07.jpg') center center no-repeat;
+    background:url('../img/img-07.jpg') center center no-repeat;
     background-size: cover;
     margin:5.4rem 3.6rem 3.6rem .5rem;
     background-color:#ffffff;
 }
 
 #img06{
-    background:url('img/img-06.jpg') center center no-repeat;
+    background:url('../img/img-06.jpg') center center no-repeat;
     background-size: cover;
     margin:0rem .5rem 9rem 3.6rem;
     background-color:#ffffff;
@@ -1026,8 +1026,8 @@ a:hover{
 
 #img02{
     width:112.8rem;
-    height:63.3rem;
-    background:url('img/img-02.jpg') center center no-repeat;
+    height: -webkit-fill-available;
+    background:url('../img/img-02.jpg') center center no-repeat;
     background-size: cover;
     position:relative;
     z-index:1;
@@ -1036,7 +1036,7 @@ a:hover{
 }
 
 #img03{
-    background:url('img/img-01.jpg') center center no-repeat;
+    background:url('../img/img-01.jpg') center center no-repeat;
     background-size: cover;
     margin:3.6rem;
     background-color:#ffffff;
