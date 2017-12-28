@@ -74,7 +74,7 @@ function init_map(){
 		]);
 
 		var icon = {
-    	url: "images/liberty-map.png", // url
+    	url: "img/liberty-map.png", // url
     	scaledSize: new google.maps.Size(80, 80), // scaled size
 		};
 

@@ -243,9 +243,9 @@ a:hover{
     width:100%;
     display:block;
     /*background:    linear-gradient(
-      rgba(255,255,255, 0.05), 
+      rgba(255,255,255, 0.05),
       rgba(255,255,255, 0.25)
-    ),url('images/img-03.jpg');*/
+    ),url('img/img-03.jpg');*/
     background: url('img/img-03.jpg');
     background-size:cover;
     background-position: center; 
