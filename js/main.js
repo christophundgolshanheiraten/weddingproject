@@ -2,22 +2,33 @@ var menuStat = "closed";
 var optionNum = $('.nav-option').length;
 
 function init_map(){
-	var uluru1 = {lat: 50.930898, lng: 6.868671};
+	var uluru1 = {lat: 50.964998, lng: 6.848906};
 	var uluru2 = {lat: 50.937417, lng: 6.957709};
-	
+    var uluru3 = {lat: (uluru1.lat + uluru2.lat)/2, lng: (uluru1.lng + uluru2.lng)/2};
+
     var map = new google.maps.Map(document.getElementById('gmap_canvas'), {
-		zoom: 15,
-        center: uluru1
+		zoom: 12,
+        center: uluru3
 	});
     
     var marker = new google.maps.Marker({
 		position: uluru1,
-        map: map
+        map: map,
+        label: {
+            text: "Köln 11 (Party)",
+            color: "#C70E20",
+            fontWeight: "bold"
+        }
 	});
 	
 	var marker2 = new google.maps.Marker({
 		position: uluru2,
-        map: map
+        map: map,
+        label: {
+            text: "Standesamt",
+            color: "#C70E20",
+            fontWeight: "bold"
+        }
 	});
 	
 	/**
